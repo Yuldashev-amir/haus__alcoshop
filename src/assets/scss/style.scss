@@ -1,5 +1,39 @@
+
+@import "mixins";
+
+
+
+html {
+    font-size: 62.5%;
+}
 body {
-    background-color: black;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    line-height: 1.5;
+
+    background-color: #996B60;
     font-size: 21px;
     color: white;
+
+    &.no-scroll {
+        overflow: hidden;
+    }
 }
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+// Blocks__import
+
+@import "blocks/header";
+@import "blocks/container";
