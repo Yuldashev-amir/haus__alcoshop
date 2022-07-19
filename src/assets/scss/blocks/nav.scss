@@ -1,0 +1,10 @@
+.nav__link {
+    font-size: 1.2rem;
+    color: #ffff;
+    text-decoration: none;
+
+    &:active {
+        text-decoration: underline;
+        color: #ccc;
+    }
+}

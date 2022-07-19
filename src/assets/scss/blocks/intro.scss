@@ -1,0 +1,20 @@
+
+.intro__nav--left {
+    text-align: center;
+    justify-content: space-between;
+
+
+    background-image: url(/assets/images/intro-bg/Rectangle.jpg);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 72rem;
+    height: 100vh;
+
+}
+
+.intro__nav--right {
+    text-align: center;
+    justify-content: space-between;
+    background-color: #996B60;
+}
