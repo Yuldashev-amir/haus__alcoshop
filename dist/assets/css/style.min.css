@@ -50,6 +50,11 @@ a:hover {
   padding-right: 5rem;
 }
 
+.inro__inner {
+  display: flex;
+  flex-direction: row;
+}
+
 .intro__nav--left {
   text-align: center;
   justify-content: space-between;
@@ -57,7 +62,7 @@ a:hover {
   background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 72rem;
+  width: 50%;
   height: 100vh;
 }
 
@@ -65,6 +70,7 @@ a:hover {
   text-align: center;
   justify-content: space-between;
   background-color: #996B60;
+  width: 50%;
 }
 
 .nav__link {
